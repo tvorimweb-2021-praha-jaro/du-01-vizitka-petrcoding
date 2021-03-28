@@ -118,8 +118,13 @@ nav a {
 
 
 nav a:hover {
-    background-color: rgb(248, 213, 116);
+    background-color: rgba(245, 205, 94, 0.801);
     box-shadow: 0 0px 5px 5px rgba(248, 213, 116, 0.603);
+}
+
+.current-page a {
+    background-color: rgba(247, 126, 45, 0.274);
+    box-shadow: 0 0px 5px 5px rgba(247, 126, 45, 0.164);
 }
 
 ul a {
