@@ -15,15 +15,20 @@ h2 {
     background-color: #ebeaed;
     color: #6c6c6dec;
     margin: 0;
-    padding: 4rem 0;
+    padding: 7rem 0;
     width: 100%;
-    text-align: center;
+    text-align: center;      
+    background-image: url(pictures/photo-header2.jpg);
+    background-size: cover;
+    background-position: top center;
+    min-height: 10rem;
 }
 
-.foto-profile {
-    height: 200px;
+.photo-profile {
+    height: 20rem;
     text-align: center;
     border-radius: 50%;
+    max-width: 100%;
 
 }
 
@@ -41,7 +46,7 @@ body {
     color: #6c6c6dec;
     font-family:'Quicksand', sans-serif;
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 footer {
@@ -55,6 +60,8 @@ footer {
 .footer-text {
     margin: 0;
     padding: 2rem 0;
+    font-weight: bolder;
+    font-style: oblique;
 }
 
 ul.list {
@@ -67,8 +74,9 @@ ul a {
 }
 
 .nav-list {
-    display: inline;
+    display: inline-block;
     padding: 0;
+    max-width: 100%;
     
 }
 
@@ -83,6 +91,7 @@ nav {
     position: sticky;
     background-color: #e4e3e6;
     color: #6c6c6dec;
+    padding: 0.5rem;
     
 }
 
@@ -102,13 +111,26 @@ section {
 
 nav a {
     text-decoration: none;
-    padding: 1rem 3rem;
+    padding: 0.5rem 3rem;
     display: inline-block;
+    border-radius: 25px;
 }
+
 
 nav a:hover {
     background-color: rgb(248, 213, 116);
+    box-shadow: 0 0px 5px 5px rgba(248, 213, 116, 0.603);
+}
+
+ul a {
+    text-decoration: none;
+    font-weight: bold;
 }
 
 
 
+/*Sekce MUSIC*/
+
+.photo-header {
+    max-width: 100%;
+}
